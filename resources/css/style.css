@@ -60,7 +60,7 @@ html, body{
 .content{
   margin-top: 5rem;
   display: flex;
-  width: 100%;
+
   justify-content: space-around;
 }
 .content h2{
