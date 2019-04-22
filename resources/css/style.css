@@ -57,8 +57,32 @@ html, body{
   font-weight: bold;
 }
 
+#mainTitle a{
+  text-decoration: none;
+  color: black;
+}
+
+#mainTitle a:visited{
+  color: black;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  transition-property: color;
+  transition-duration: 500ms;
+}
+nav a:hover{
+  color: red;
+  text-decoration: none;
+}
+nav a:visited{
+  text-decoration: none;
+  color: black;
+}
+
 .content{
-  margin-top: 5rem;
+  margin-top: 1.5rem;
   display: flex;
 
   justify-content: space-around;
@@ -103,6 +127,33 @@ html, body{
   width: 23rem;
 
 }
+.article-title{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 80%;
+}
+.column-1{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.column-2{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.column-1, .column-2 img{
+  margin-top: .5rem;
+  width: 23rem;
+  height: auto;
+}
+
+
 
 .copyright{
   padding-left:1rem;
