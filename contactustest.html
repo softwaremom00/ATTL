@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Simple Contact US Feedback Form</title>
+<style>label{display:block;}</style>
+</head>
+<body>
+
+<form action="/cgi-bin/feedback_form.cgi" method="post">
+<label>Name</label>
+<p></p>
+<input type="text" name="contact_name" size="40">
+
+<label>Email Address</label><br>
+<input type="text" name="email_address" size="40">
+
+
+<label>Message</label>
+<textarea name="feedback" cols="50" rows="10"></textarea>
+
+<input type="submit" name="send" value="Submit">
+
+</form>
+
+</body>
+</html>

@@ -21,25 +21,36 @@
       </nav>
     </div> <!-- end of container for logo navbar -->
     <div class="container banner">
-      <span>ATTL Events</span>
+      <span>CONTACT ATTL</span>
     </div>
   </div>
     <div class="container">
       <div class="content">
       <div class="column-1">
-        <h2>Upcoming Events</h2>
-        <p>Members of Art Through The Loom participate in a number of events.   The guild sponsored events include:</p>
-        <p>Meetings at least 4 times a year. Usually meeting occur in Abuquiu, NM or somewhere close by.</p>
-        <p>Taos Wool Festival.  Every Year we have a booth at the Taos Wool Festival.  The festival is one of the longest running wool festivals in the Country.</p>
-        <p>Participation in other shows.  We group together and have booths in other art and fiber shows.   This is a great way to sell your work with less overhead.
-Newsletters</p>
 
+        <h2>Guild Mailing Address</h2>
+       <ul>
+         <li>Sandy Voss</li>
+         <li>P.O. Box 10</li>
+         <li>Abiquiu, NM 87510</li>
+         </ul>
+         <h2>Guild Web Inquiry Form</h2>
+         <p>We would love to hear from you</p>
 
-
+         <form>
+          First name:<br>
+          <input type="text" name="firstname"><br>
+          Last name:<br>
+          <input type="text" name="lastname"><br>
+          Email Address:<br>
+          <input type="email" name="emailaddress"><br>
+          Message:<br>
+          <input type="text" name="message"><br><br>
+          <input type="submit" value="Submit"><br>
+        </form>
       </div>
       <div class="column-2">
-
-        <img id="woman" src="resources/images/barbrug.jpg" alt="Woman weaving rug"/>
+        <img src="resources/images/adobestock_silverheddles.jpg" alt="Threaded Silver Heddles" />
       </div>
 </div>
 </div>
